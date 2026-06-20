@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "domain": "nologo.com"
+  },
+  "origin": {
+    "provider_id": 6
+  },
+  "currency": "USD",
+  "subtotal_price_cents": 15000,
+  "destination": {
+    "address1": "1201 3rd Ave",
+    "city": "Seattle",
+    "province": "WA",
+    "postal_code": "98101",
+    "country": "US"
+  },
+  "parcel": {
+    "length": 18,
+    "width": 14,
+    "height": 10,
+    "weight": 12,
+    "dimension_unit": "in",
+    "weight_unit": "lb"
+  }
+}

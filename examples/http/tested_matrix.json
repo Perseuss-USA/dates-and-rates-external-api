@@ -1,0 +1,314 @@
+[
+  {
+    "name": "nyc_small_2lb",
+    "destination": {
+      "address1": "123 Main St",
+      "city": "New York",
+      "province": "NY",
+      "postal_code": "10001",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 10,
+      "width": 8,
+      "height": 4,
+      "weight": 2,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "1720",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-26T12:00:00Z",
+        "max_delivery_date": "2026-06-26T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "2133",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "4754",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "4855",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-26T23:59:00Z",
+        "max_delivery_date": "2026-06-26T23:59:00Z"
+      }
+    ]
+  },
+  {
+    "name": "sf_medium_5lb",
+    "destination": {
+      "address1": "1 Market St",
+      "city": "San Francisco",
+      "province": "CA",
+      "postal_code": "94105",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 12,
+      "width": 10,
+      "height": 6,
+      "weight": 5,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "1427",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-23T12:00:00Z",
+        "max_delivery_date": "2026-06-23T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "1808",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-23T12:00:00Z",
+        "max_delivery_date": "2026-06-23T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "4000",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "4812",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T23:59:00Z",
+        "max_delivery_date": "2026-06-24T23:59:00Z"
+      }
+    ]
+  },
+  {
+    "name": "austin_light_1lb",
+    "destination": {
+      "address1": "200 Congress Ave",
+      "city": "Austin",
+      "province": "TX",
+      "postal_code": "78701",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 8,
+      "width": 6,
+      "height": 4,
+      "weight": 1,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "1426",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-25T12:00:00Z",
+        "max_delivery_date": "2026-06-25T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "1556",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "3372",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-23T23:59:00Z",
+        "max_delivery_date": "2026-06-23T23:59:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "3419",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "seattle_large_12lb",
+    "destination": {
+      "address1": "1201 3rd Ave",
+      "city": "Seattle",
+      "province": "WA",
+      "postal_code": "98101",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 18,
+      "width": 14,
+      "height": 10,
+      "weight": 12,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "2184",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "3148",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "4321",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-23T23:59:00Z",
+        "max_delivery_date": "2026-06-23T23:59:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "6086",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "miami_long_3lb",
+    "destination": {
+      "address1": "100 Biscayne Blvd",
+      "city": "Miami",
+      "province": "FL",
+      "postal_code": "33132",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 24,
+      "width": 6,
+      "height": 6,
+      "weight": 3,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "1967",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-26T12:00:00Z",
+        "max_delivery_date": "2026-06-26T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "2827",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "5098",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-26T23:59:00Z",
+        "max_delivery_date": "2026-06-26T23:59:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "5246",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "chicago_heavy_20lb",
+    "destination": {
+      "address1": "233 S Wacker Dr",
+      "city": "Chicago",
+      "province": "IL",
+      "postal_code": "60606",
+      "country": "US"
+    },
+    "parcel": {
+      "length": 20,
+      "width": 16,
+      "height": 12,
+      "weight": 20,
+      "dimension_unit": "in",
+      "weight_unit": "lb"
+    },
+    "rates": [
+      {
+        "external_code": "usps-ground-advantage",
+        "service_name": "USPS Ground Advantage",
+        "total_price": "3763",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-25T12:00:00Z",
+        "max_delivery_date": "2026-06-25T12:00:00Z"
+      },
+      {
+        "external_code": "usps-priority-mail",
+        "service_name": "USPS Priority Mail",
+        "total_price": "7568",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T12:00:00Z",
+        "max_delivery_date": "2026-06-24T12:00:00Z"
+      },
+      {
+        "external_code": "fedex-home-delivery",
+        "service_name": "FedEx Home Delivery",
+        "total_price": "7878",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-26T23:59:00Z",
+        "max_delivery_date": "2026-06-26T23:59:00Z"
+      },
+      {
+        "external_code": "fedex-2day",
+        "service_name": "FedEx 2Day",
+        "total_price": "13271",
+        "currency": "USD",
+        "min_delivery_date": "2026-06-24T20:00:00Z",
+        "max_delivery_date": "2026-06-24T20:00:00Z"
+      }
+    ]
+  }
+]

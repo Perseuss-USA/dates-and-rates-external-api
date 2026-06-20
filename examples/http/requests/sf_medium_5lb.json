@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "domain": "nologo.com"
+  },
+  "origin": {
+    "provider_id": 6
+  },
+  "currency": "USD",
+  "subtotal_price_cents": 15000,
+  "destination": {
+    "address1": "1 Market St",
+    "city": "San Francisco",
+    "province": "CA",
+    "postal_code": "94105",
+    "country": "US"
+  },
+  "parcel": {
+    "length": 12,
+    "width": 10,
+    "height": 6,
+    "weight": 5,
+    "dimension_unit": "in",
+    "weight_unit": "lb"
+  }
+}

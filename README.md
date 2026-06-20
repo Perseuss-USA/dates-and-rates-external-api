@@ -146,16 +146,17 @@ X-DNR-SIGNATURE: v1=<hex_digest>
 {
   "rates": [
     {
-      "service_name": "Express Shipping with Expedited Handling",
-      "service_code": "express_shipping_with_expedited_handling",
-      "total_price": "3724",
+      "service_name": "USPS Ground Advantage",
+      "service_code": "usps_ground_advantage",
+      "total_price": "1720",
       "currency": "USD",
-      "min_delivery_date": "2026-06-22",
-      "max_delivery_date": "2026-06-22",
-      "external_code": "fedex-2day"
+      "out_of_stock": false,
+      "min_delivery_date": "2026-06-25T00:00:00Z",
+      "max_delivery_date": "2026-06-25T00:00:00Z",
+      "external_code": "usps-ground-advantage"
     }
   ],
-  "request_id": "6e968ed0-4b11-4fb3-b50d-343a6d07ab6b"
+  "request_id": "example-nyc-small-2lb"
 }
 ```
 
@@ -164,7 +165,19 @@ Notes:
 - `total_price` is in cents.
 - `external_code` is the underlying carrier/method code before display-name mapping.
 - Returned rates already include configured 3PL markups, brand markups, delivery-date padding, and brand padding.
+- Rates are returned sorted by `total_price` from lowest to highest.
 - The API does not perform cartonization. Send the final parcel dimensions and weight.
+
+### Current No Logo Enabled Services
+
+No Logo currently exposes these enabled services through the external API:
+
+| External code | Service name |
+| --- | --- |
+| `fedex-2day` | FedEx 2Day |
+| `fedex-home-delivery` | FedEx Home Delivery |
+| `usps-ground-advantage` | USPS Ground Advantage |
+| `usps-priority-mail` | USPS Priority Mail |
 
 ## Errors
 
@@ -184,6 +197,20 @@ See:
 - [TypeScript](examples/typescript/rate_request.ts)
 - [Java](examples/java/RateRequest.java)
 - [Example env](.env.example)
+- [Tested request/response matrix](examples/http/tested_matrix.json)
+
+### Tested Request/Response Examples
+
+These examples were run against production on June 19, 2026 US Eastern time using No Logo under ShipBots. Request IDs are replaced with stable example IDs.
+
+| Scenario | Request | Response |
+| --- | --- | --- |
+| NYC, 10x8x4 in, 2 lb | [request](examples/http/requests/nyc_small_2lb.json) | [response](examples/http/responses/nyc_small_2lb.json) |
+| San Francisco, 12x10x6 in, 5 lb | [request](examples/http/requests/sf_medium_5lb.json) | [response](examples/http/responses/sf_medium_5lb.json) |
+| Austin, 8x6x4 in, 1 lb | [request](examples/http/requests/austin_light_1lb.json) | [response](examples/http/responses/austin_light_1lb.json) |
+| Seattle, 18x14x10 in, 12 lb | [request](examples/http/requests/seattle_large_12lb.json) | [response](examples/http/responses/seattle_large_12lb.json) |
+| Miami, 24x6x6 in, 3 lb | [request](examples/http/requests/miami_long_3lb.json) | [response](examples/http/responses/miami_long_3lb.json) |
+| Chicago, 20x16x12 in, 20 lb | [request](examples/http/requests/chicago_heavy_20lb.json) | [response](examples/http/responses/chicago_heavy_20lb.json) |
 
 ## Minimal cURL Shape
 

@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "domain": "nologo.com"
+  },
+  "origin": {
+    "provider_id": 6
+  },
+  "currency": "USD",
+  "subtotal_price_cents": 15000,
+  "destination": {
+    "address1": "123 Main St",
+    "city": "New York",
+    "province": "NY",
+    "postal_code": "10001",
+    "country": "US"
+  },
+  "parcel": {
+    "length": 10,
+    "width": 8,
+    "height": 4,
+    "weight": 2,
+    "dimension_unit": "in",
+    "weight_unit": "lb"
+  }
+}

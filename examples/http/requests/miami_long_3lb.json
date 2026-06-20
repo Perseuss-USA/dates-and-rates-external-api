@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "domain": "nologo.com"
+  },
+  "origin": {
+    "provider_id": 6
+  },
+  "currency": "USD",
+  "subtotal_price_cents": 15000,
+  "destination": {
+    "address1": "100 Biscayne Blvd",
+    "city": "Miami",
+    "province": "FL",
+    "postal_code": "33132",
+    "country": "US"
+  },
+  "parcel": {
+    "length": 24,
+    "width": 6,
+    "height": 6,
+    "weight": 3,
+    "dimension_unit": "in",
+    "weight_unit": "lb"
+  }
+}

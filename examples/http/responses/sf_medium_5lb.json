@@ -1,0 +1,49 @@
+{
+  "rates": [
+    {
+      "service_name": "USPS Ground Advantage",
+      "service_code": "usps_ground_advantage",
+      "description": "Delivery by: 06/23/26 (Tuesday)",
+      "total_price": "1427",
+      "currency": "USD",
+      "out_of_stock": false,
+      "min_delivery_date": "2026-06-23T12:00:00Z",
+      "max_delivery_date": "2026-06-23T12:00:00Z",
+      "external_code": "usps-ground-advantage"
+    },
+    {
+      "service_name": "USPS Priority Mail",
+      "service_code": "usps_priority_mail",
+      "description": "Delivery by: 06/23/26 (Tuesday)",
+      "total_price": "1808",
+      "currency": "USD",
+      "out_of_stock": false,
+      "min_delivery_date": "2026-06-23T12:00:00Z",
+      "max_delivery_date": "2026-06-23T12:00:00Z",
+      "external_code": "usps-priority-mail"
+    },
+    {
+      "service_name": "FedEx 2Day",
+      "service_code": "fedex_2day",
+      "description": "Delivery by: 06/24/26 (Wednesday)",
+      "total_price": "4000",
+      "currency": "USD",
+      "out_of_stock": false,
+      "min_delivery_date": "2026-06-24T20:00:00Z",
+      "max_delivery_date": "2026-06-24T20:00:00Z",
+      "external_code": "fedex-2day"
+    },
+    {
+      "service_name": "FedEx Home Delivery",
+      "service_code": "fedex_home_delivery",
+      "description": "Delivery by: 06/24/26 (Wednesday)",
+      "total_price": "4812",
+      "currency": "USD",
+      "out_of_stock": false,
+      "min_delivery_date": "2026-06-24T23:59:00Z",
+      "max_delivery_date": "2026-06-24T23:59:00Z",
+      "external_code": "fedex-home-delivery"
+    }
+  ],
+  "request_id": "example-sf_medium_5lb"
+}
