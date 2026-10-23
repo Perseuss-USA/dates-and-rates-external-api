@@ -233,3 +233,12 @@ curl -X POST "https://app.datesnrates.com/api/external/v1/rates" \
 - Use a fresh nonce for every request.
 - Do not retry a signed request with the same nonce. If retrying, regenerate timestamp, nonce, and signature.
 - Do not log API secrets or raw signatures in application logs.
+
+<!-- BEGIN CURRENT MODEL COMMIT ATTRIBUTION -->
+## Commit attribution
+
+- For every AI-assisted commit, resolve the model actually used in the current session at commit time from trusted runtime/session metadata.
+- Add `Co-Authored-By: Codex (<active-model-id>) <noreply@openai.com>`, replacing `<active-model-id>` with that verified model identifier.
+- Recheck after a model change. Never hardcode a model version, copy an earlier commit's model, or assume the configured default is the active model.
+- If the exact active model cannot be verified, use `Co-Authored-By: Codex <noreply@openai.com>` and disclose that limitation instead of guessing a version.
+<!-- END CURRENT MODEL COMMIT ATTRIBUTION -->
